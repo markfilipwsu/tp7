@@ -30,30 +30,7 @@ function loadFileInto(fromFile, whereTo) {
 
 window.onload = function() {
 
-    loadFileInto("ingredients.html", "#ingredients ol"); 
-    loadFileInto("kitchenequipment.html", "#KitchenEquipment ol"); 
-    loadFileInto("directions.html", "#Directions ol"); 
   
-  document.querySelector("#heroimage h1").classList.add("tp");
-
-  document.querySelector("#heroimage h1").onclick = function() {
-
-    this.classList.toggle("black");
-
-  }
-  
-  document.querySelector("#recipeColumns #ingredients").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-    document.querySelector("#recipeColumns #KitchenEquipment").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-      document.querySelector("#recipeColumns #Directions").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-      document.querySelector("#recipeColumns #ingredients ol").innerHTML += "<li>A Hunger for Cookies</li>";
-  
-
   
 
 } // end window function
