@@ -86,16 +86,6 @@ color: #fff;
     padding: 20px;
     text-shadow: 0px 8px 8px #000000;
   }
-/*Hide the Columns at first */
-#recipeColumns #ingredients ol,
-#recipeColumns #KitchenEquipment ol,
-#recipeColumns #Directions ol
-{display: none; }
-
-#recipeColumns #ingredients.tpShow ol,
-#recipeColumns #KitchenEquipment.tpShow ol,
-#recipeColumns #Directions.tpShow ol {
-  display: block;
 }
 
   #recipeColumns {
